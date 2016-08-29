@@ -64,20 +64,18 @@ body{
 
 .contentWrap .format{
     text-align: center;
-    padding-top: 70px;
 }
 
 .contentWrap .format ul{
     list-style: none;
     padding-top: 70px;
-    padding-left: 300px;
+    padding-left: 150px;
     margin: 0;
 }
 
 .contentWrap .format li{
     margin: 0 38px 0 38px;
     float: left;
-    text-align: center;
     width: 140px;
 }
 
@@ -97,6 +95,10 @@ body{
     border-radius: 50%;
     background-color: #efefef;
   
+}
+
+.form.clear{
+    float: none;
 }
 
 .footer{
