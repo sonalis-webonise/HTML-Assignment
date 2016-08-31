@@ -36,9 +36,7 @@
 
 .contentsWrapper h4{
     font-size: 16px;
-     border-bottom: 2px solid;
-    border-bottom-color: yellow;
-    border-bottom-width: thick;
+     border-bottom: 2px solid yellow;
     padding-bottom: 10px;
     color: #3355aa;
 }
@@ -52,6 +50,10 @@
     box-shadow: 2px 2px 2px 2px gray;
     padding: 10px;
     text-align: center;
+}
+
+.contentsWrapper .spanWrap{
+    font-size: 10px;
 }
 
 .SectorsWrapper{
@@ -96,19 +98,32 @@
     border-bottom: 1px solid #3d3d3d;
 }
 
-.footerWrapper {
+.footerWrap ul{
     font-size: 14px;
-} 
-
-.footerWrapper ul{
-    font-size: 11px;
 }
 
-.footerWrapper ul li{
+.footerWrap ul li{
     text-decoration: none;
     list-style: none;
+    
 }
 
+.footerWrap a{
+    color: grey;
+}
+
+.footerWrap a:hover{
+    color: white;
+}
+
+.rightContent{
+    font-size: 11px;
+}
+
+.footerWrap .active{
+    color: white;
+}
 .copyrightWrap h6{
     font-size: 11px;
+    color: grey;
 }
