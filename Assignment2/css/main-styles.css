@@ -12,15 +12,35 @@
 .navWrapper{
     background-color: #3355aa;
     font-style: italic;
+    padding: 5px 0;
 }
 
-.navWrapper ul{
-        line-height: 40px;
-        color: white;
+
+.navWrapper ul.mainNav li:firstchild a{
+    border-left: 1px solid #3d3d3d;
 }
 
-.navWrapper ul li a{
+.navWrapper ul.mainNav li a{
+    padding: 0 20px;;
+    line-height: 30px;
     border-right: 1px solid #3d3d3d;
+    color: white;
+}
+.searchForm{
+    margin: 0;
+}
+
+.searchForm button{
+    height: 30px;
+    margin: 0;
+}
+.searchForm input{
+    height: 30px;
+    margin: 0;
+}
+
+.searchForm .colorButton{
+    color: skyblue;
 }
 
 .container p{
@@ -90,12 +110,11 @@
 
 .footerWrap{
     background-color: #333333;
-    padding-top: 15px;
-    padding-bottom: 36px;
 }
 
 .footerBar{
     border-bottom: 1px solid #3d3d3d;
+    padding: 0;
 }
 
 .footerWrap ul{
