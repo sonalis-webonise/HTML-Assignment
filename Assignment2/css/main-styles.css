@@ -1,0 +1,114 @@
+.body{
+    font-family: Georgia;
+    color: #222222;
+  
+}
+
+.headerLogo{
+    height: 80px;
+    padding-top: 10px;
+}
+
+.navWrapper{
+    background-color: #3355aa;
+    font-style: italic;
+}
+
+.navWrapper ul{
+        line-height: 40px;
+        color: white;
+}
+
+.navWrapper ul li a{
+    border-right: 1px solid #3d3d3d;
+}
+
+.container p{
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+
+.textFormat{
+    list-style: none;
+}
+
+.contentsWrapper h4{
+    font-size: 16px;
+     border-bottom: 2px solid;
+    border-bottom-color: yellow;
+    border-bottom-width: thick;
+    padding-bottom: 10px;
+    color: #3355aa;
+}
+
+.contentsWrapper{
+    font-size: 14px;
+    padding: 35px 0 45px 0;
+}
+
+.contentsWrapper .shadowBorder{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.SectorsWrapper{
+    background-color:lightgrey;
+    padding-bottom: 75px;
+}
+
+.SectorsWrapper h1{
+    font-size: 28px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.SectorsWrapper h4{
+    font-size: 16px;
+    text-align: center;
+    padding: 0 36px;
+    color: #3355aa;
+}
+
+.SectorsWrapper .row .thumbnailSize{
+    height: 250px;
+    background-color:darkgrey;
+}
+
+.SectorsWrapper .row .borderBox{
+    border-width: 2px 2px 2px 2px;
+}
+
+.SectorsWrapper .row .boxInfo{
+    background-color: white;
+    padding: 5px;
+}
+
+.footerWrap{
+    background-color: #333333;
+    padding-top: 15px;
+    padding-bottom: 36px;
+}
+
+.footerBar{
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.footerWrapper {
+    font-size: 14px;
+} 
+
+.footerWrapper ul{
+    font-size: 11px;
+}
+
+.footerWrapper ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.copyrightWrap h6{
+    font-size: 11px;
+}
