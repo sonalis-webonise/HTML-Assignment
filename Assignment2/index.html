@@ -2,22 +2,23 @@
 <html>
     <head>
         <title>Web Page</title>
-        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
-        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main-styles.css">
     </head>
     <body>
 <!--        header logo-->
         <div class="headerLogo">
             <div class="container">
-                <img src="logo.png">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png">
+                    </a>
+                </div>
             </div>
         </div>
 <!--    navigation header-->
         
-        <nav class="navbar navbar-default">
-        <div class="navWrapper">
+        <nav class="navbar navbar-default navWrapper">
             <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -39,13 +40,12 @@
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
-                    <button type="submit" class="btn btn-default">
-                        <span class="glyphicon glyphicon-search colorBotton"></span>
+                    <button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
                     </button>
                 </form>
             </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
-        </div>
         </nav>
         
         
@@ -53,34 +53,40 @@
         <div class="contentsWrapper">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <div class="shadowBorder">
-                    <img src="banner.jpg" class="img-responsive">
+                    <img src="images/banner.jpg" class="img-responsive">
                     <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Proin ut tellus nulla, a commando leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                 </div>
                 
-                <div class="col-sm-3">
-                    <h4>WHAT WE DO?</h4><div class="bottomBorder"></div>
-                        <p>Microsave is development consultancy.Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters.</p><p> To avoid unintended and confusing output in screen readers (particularly when icons are used purely for decoration), we hide them with the aria-hidden="true" attribute.</p>
-                    <h4>WHERE WE OPERATE?</h4>
+                <div class="col-md-3">
+                    <div class="paragraph">
+                        <h4>WHAT WE DO?</h4>
+                            <p>Microsave is development consultancy.Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters.</p>
+                            <p> To avoid unintended and confusing output in screen readers (particularly when icons are used purely for decoration), we hide them with the aria-hidden="true" attribute.</p>
+                    </div>
+                    <div class="paragraph">
+                        <h4>WHERE WE OPERATE?</h4>
+                    </div>
                 </div>
                 
-                <div class="col-sm-3">
-                    <h4>ANNOUNCEMENTS</h4>
+                <div class="col-md-3">
+                        <h4>ANNOUNCEMENTS</h4>
                         <ul>
-                            <li class="textFormat">
-                                <p>Microsave is development consultancy.</p>
-                                <span class="spanWrap">By <strong>Amol</strong> on 21 July 2012</span>
-                                <hr>
+                            <li>
+                                <p><a href="#">Microsave is development consultancy....</a></p>
+                                <span class="spanWrap">By <a href="#">Amol</a> on <a href="#">21 July 2012</a></span>
                             </li>
-                            <li class="textFormat">
-                                <p>Microsave is development consultancy.</p>
-                                <span class="spanWrap">By <strong>Amol</strong> on 21 July 2012</span>
-                                <hr>
+                            <li>
+                                <p><a href="#">Microsave is development consultancy....</a></p>
+                                <span class="spanWrap">By <a href="#">Amol</a> on <a href="#">21 July 2012</a></span>
                             </li>
-                            <li class="textFormat">
-                                <p>Microsave is development consultancy.</p>
-                                <span class="spanWrap">By <strong>Amol</strong> on 21 July 2012</span>
+                            <li>
+                                <p><a href="#">Microsave is development consultancy....</a></p>
+                                <span class="spanWrap">By <a href="#">Amol</a> on <a href="#">21 July 2012</a></span>
+                            </li>
+                            <li>
+                                <p class="viewmore"><a href="#">View More</a></p>
                             </li>
                         </ul>
                 </div>
@@ -94,25 +100,25 @@
             <div class="container">
                 <h1>SECTORS WE WORK IN</h1>
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <div class="boxInfo">
                             <h4 >Microfinance and Banking</h4>
                             <div class="thumbnailSize"></div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <div class="boxInfo">
                             <h4>E/M Banking for Financial Inclusion</h4>
                             <div class="thumbnailSize"></div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <div class="boxInfo">
                             <h4>Private Sector Development</h4>
                             <div class="thumbnailSize"></div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <div class="boxInfo">
                             <h4>Small and Medium Enterprise Financing</h4>
                             <div class="thumbnailSize"></div>
@@ -124,28 +130,34 @@
         
 <!--        Footer-->
         <div class="footerWrap">
-            <div class="container footerBar">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right rightContent">
-                    <li class="active"><a href="#">Terms of use</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Code of business conduct & ethics</a></li>
-                    <li><a href="#">Site map</a></li>
-                </ul>
-            </div>
-                <div class="copyrightWrap">
-                    <div class="container">
-                        <h6>MicroSave &copy; 2012</h6>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="leftContent">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li class="clear"></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="rightContent">
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Code of business conduct & ethics</a></li>
+                            <li><a href="#">Site map</a></li>
+                            <li class="clear"></li>
+                        </ul>
+                        
                     </div>
                 </div>
-            
+                <div class=" footerBar"></div>
+                <div class="copyrightWrap">
+                    <h6>MicroSave &copy; 2012</h6>
+                </div>
+            </div>
         </div>
-        
     </body>
 </html>

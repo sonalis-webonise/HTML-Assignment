@@ -1,12 +1,9 @@
-.body{
-    font-family: Georgia;
-    color: #222222;
-  
+body{
+    font-family: georgia;
 }
-
 .headerLogo{
-    height: 80px;
-    padding-top: 10px;
+    padding-top: 11px;
+    padding-bottom: 12px;
 }
 
 .navWrapper{
@@ -15,6 +12,11 @@
     padding: 5px 0;
 }
 
+.navbar{
+    padding: 4px 0;
+    margin-bottom: 0;
+    min-height: 0;
+}
 
 .navWrapper ul.mainNav li:firstchild a{
     border-left: 1px solid #3d3d3d;
@@ -25,6 +27,10 @@
     line-height: 30px;
     border-right: 1px solid #3d3d3d;
     color: white;
+}
+
+.navWrapper ul.mainNav li a:hover{
+    color: skyblue;
 }
 .searchForm{
     margin: 0;
@@ -38,27 +44,58 @@
     height: 30px;
     margin: 0;
 }
-
-.searchForm .colorButton{
-    color: skyblue;
-}
-
 .container p{
     font-size: 14px;
     font-style: italic;
 }
 
-
-
-.textFormat{
+.contentsWrapper li{
     list-style: none;
 }
 
 .contentsWrapper h4{
     font-size: 16px;
-     border-bottom: 2px solid yellow;
+    border-bottom: 2px solid orange;
     padding-bottom: 10px;
     color: #3355aa;
+    font-weight: bold;
+}
+
+.contentsWrapper .paragraph{
+    padding-bottom: 35px;
+    font-size: 13px;
+    font-family: georgia;
+}
+
+.contentsWrapper .paragraph p{
+    font-size: 13px;
+    font-family: georgia;
+    font-style: normal;
+}
+
+.contentsWrapper p{
+    font-size: 13px;
+    font-family: georgia;
+    padding-bottom: 10px;
+}
+
+
+.contentsWrapper ul{
+    padding-left: 0px;
+}
+
+.contentsWrapper ul li{
+    font-style: italic;
+    border-bottom: 1px solid lightgrey;
+}
+
+.contentsWrapper ul li:last-child {
+    border-bottom: 0;
+}
+
+
+.contentsWrapper ul li a{
+    color: black;
 }
 
 .contentsWrapper{
@@ -74,8 +111,27 @@
 
 .contentsWrapper .spanWrap{
     font-size: 10px;
+        font-style: normal;
 }
 
+.contentsWrapper .viewmore a{
+    border-bottom: 0;
+    color: dodgerblue;
+}
+
+.contentsWrapper .spanWrap a{
+    font-weight: bold;
+}
+
+.footerWrap  ul.leftContent li.clear{
+    clear: both;
+    float: none;
+}
+
+.footerWrap  ul.rightContent li.clear{
+    clear: both;
+    float: none;
+}
 .SectorsWrapper{
     background-color:lightgrey;
     padding-bottom: 75px;
@@ -85,13 +141,15 @@
     font-size: 28px;
     padding: 25px 0;
     text-align: center;
+    margin: 0 auto;
 }
 
 .SectorsWrapper h4{
     font-size: 16px;
     text-align: center;
-    padding: 0 36px;
     color: #3355aa;
+    min-height: 35px;
+    padding: 0 20px;
 }
 
 .SectorsWrapper .row .thumbnailSize{
@@ -110,21 +168,17 @@
 
 .footerWrap{
     background-color: #333333;
+    padding-top: 15px;
 }
 
-.footerBar{
-    border-bottom: 1px solid #3d3d3d;
-    padding: 0;
-}
-
-.footerWrap ul{
-    font-size: 14px;
+.footerWrap .footerBar{
+    border-bottom: 1px solid grey;
 }
 
 .footerWrap ul li{
     text-decoration: none;
-    list-style: none;
-    
+    list-style: none; 
+    padding-top: 15px;
 }
 
 .footerWrap a{
@@ -135,14 +189,43 @@
     color: white;
 }
 
-.rightContent{
-    font-size: 11px;
-}
-
-.footerWrap .active{
-    color: white;
-}
 .copyrightWrap h6{
     font-size: 11px;
     color: grey;
+    padding: 5px 0 35px 0;
+    margin: 0;
+}
+
+.footerWrap ul.leftContent {
+    padding-left: 0;
+}
+
+.footerWrap ul.rightContent {
+    float: right;
+}
+
+.footerWrap  ul.leftContent li{
+    float: left;
+    padding: 0 15px;
+    font-size: 14px;
+    border-left: 1px solid lightgrey;
+}
+
+.footerWrap  ul.leftContent li:first-child{
+    border-left: 0;
+}
+
+.footerWrap ul.leftContent .active a{
+    color: white;
+}
+
+.footerWrap  ul.rightContent li{
+    padding:0 15px;
+    float: left;
+    font-size: 11px;
+    border-left: 1px solid lightgrey;
+}
+
+.footerWrap  ul.rightContent li:first-child{
+    border-left: 0;
 }
