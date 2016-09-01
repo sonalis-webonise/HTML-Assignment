@@ -18,7 +18,7 @@ body{
     min-height: 0;
 }
 
-.navWrapper ul.mainNav li:firstchild a{
+.navWrapper ul.mainNav li:first-child a{
     border-left: 1px solid #3d3d3d;
 }
 
@@ -39,6 +39,8 @@ body{
 .searchForm button{
     height: 30px;
     margin: 0;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
 }
 .searchForm input{
     height: 30px;
@@ -154,7 +156,7 @@ body{
 
 .SectorsWrapper .row .thumbnailSize{
     height: 250px;
-    background-color:darkgrey;
+    background-color:lightgrey;
 }
 
 .SectorsWrapper .row .borderBox{
